@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    background-color: palevioletred;
+}
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background-color: rgba(0, 0,0,0.1);
+}       
+header div {
+    text-align: center;
+}
+header div a{
+    font-family: "Mulish", sans-serif;
+    color:azure;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none ;
+
+}
+header div a:hover{
+    color: darkmagenta;
+    transition: color 1000ms;
+
+}
+
+.teste:hover{
+width: 250px;
+height: 260px;
+background-color: aqua;
+
+
+
+
+}

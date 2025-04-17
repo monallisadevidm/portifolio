@@ -68,4 +68,55 @@ background-color: aqua;
     font-size: 24px;
     list-style: 34px;
 }
+ 
+:root{
+    --subcor:var(--subcor) #6e0342
+}
+ header{
+    padding: 32px;
+    border-bottom: 3px solid #6e0342;
+    background-color: rgba(0, 0,0,0.1);
+ }
 
+ header{
+    padding: 32px;
+    border-bottom: 3px solid var(--subcor);
+    background-color: rgba(0, 0,0,0.1);
+ }
+
+ header div {
+    text-align: center;
+ }
+
+   <div class= "links">
+        <a href="https://www.instagram.com/" :target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/" :target="_blank">Facebok</a>
+        <a href="https://www.github.com/" :target="_blank">Github</a>
+   </div>
+
+#box h1 {
+    padding: 4px;
+}
+
+#box h2 {
+    padding: 10px;
+}
+
+#box p:hover {
+    font-size: 23px;
+}
+
+#box a {
+    color: var(--subcor);
+    transition: 600ms;
+}
+
+#linksFooter {
+    padding-top: 32px;
+}
+
+#llinksFooter a {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--subcor);
+}
